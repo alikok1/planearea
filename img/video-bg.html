@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Adcropper</title>
+      <link rel="shortcut icon" href="assets/images/favicon.ico" />
+      <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+      <link
+        rel="apple-touch-icon"
+        sizes="72x72"
+        href="assets/images/apple-touch-icon-72x72.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="assets/images/apple-touch-icon-114x114.png"
+      />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+      <link rel="stylesheet" href="assets/css/vendor/slider.min.css" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="stylesheet" href="assets/css/vendor/icons.min.css" />
+      <link rel="stylesheet" href="assets/css/vendor/animation.min.css" />
+      <link rel="stylesheet" href="assets/css/vendor/gallery.min.css" />
+      <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css" />
+      <link rel="stylesheet" href="assets/css/default.css" />
+      <link rel="stylesheet" href="assets/css/theme-light-blue.css" />
+      <style>
+        :root {
+          --primary-color: #33bcfc;
+          --header-bg-color: #111117;
+          --nav-item-color: #f5f5f5;
+          --top-nav-item-color: #f5f5f5;
+          --hero-bg-color: #03071e;
+
+          --section-1-bg-color: #f5f5f5;
+          --section-2-bg-color: #111117;
+          --section-3-bg-color: #03071e;
+          --section-4-bg-color: #eeeeee;
+          --section-5-bg-color: #f5f5f5;
+          --section-6-bg-color: #111117;
+
+          --card-bg-color: #16161c;
+
+          --footer-bg-color: #16161c;
+        }
+        .navbar-brand {
+          min-width: 125px !important;
+        }
+        .icon {
+          color: var(--primary-color);
+        }
+        .ac-foother {
+          padding: 10px 0px !important;
+        }
+      </style>
+    </head>
+  </head>
+
+  <body class="home" style="background-color: #03071e">
+    <!-- Header -->
+    <header id="header">
+      <!-- Navbar -->
+      <nav
+        data-aos="zoom-out"
+        data-aos-delay="800"
+        class="navbar navbar-expand navbar-fixed"
+      >
+        <div class="container header">
+          <!-- Navbar Brand-->
+          <a class="navbar-brand" href="/">
+            <img src="assets/images/adcropper-dark.svg" />
+          </a>
+          <!-- Nav holder -->
+          <div class="ml-auto"></div>
+          <!-- Navbar Items -->
+          <ul class="navbar-nav items">
+            <li class="nav-item">
+              <a href="#services" class="nav-link smooth-anchor"
+                >Our Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link smooth-anchor">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link smooth-anchor">Get in touch</a>
+            </li>
+            <li class="nav-item">
+              <a href="#career" class="nav-link smooth-anchor">Career</a>
+            </li>
+          </ul>
+          <!-- Navbar Toggle  -->
+          <ul class="navbar-nav toggle">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link"
+                data-toggle="modal"
+                data-target="#menu"
+              >
+                <i class="icon-menu m-0"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="slider" class="hero p-0">
+      <div
+        id="mainScreenContainer"
+        class="swiper-container no-slider animation slider-h-100"
+      >
+        <div class="swiper-wrapper">
+          <!-- Item 1 -->
+          <div class="swiper-slide slide-center">
+            <video
+              id="myVideo"
+              class="full-image"
+              data-mask="50"
+              playsinline
+              autoplay
+              muted
+              loop
+              poster="assets/videos/poster.jpg"
+            >
+              <source src="assets/videos/colors.mp4" type="video/mp4" />
+              <source src="assets/videos/colors.webm" type="video/webm" />
+            </video>
+            <div class="slide-content row text-center">
+              <div class="col-12 mx-auto inner">
+                <div class="center align-self-center text-center">
+                  <h1 class="title effect-static-text">
+                    Engage your audience with striking adverts
+                  </h1>
+                  <p class="text-max-800 firstSectionP">
+                    We take pride in designing beautiful & innovative adverts
+                    that drive user engagement
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section-1 counter skills">
+      <div class="container">
+        <div class="row text-center intro">
+          <div class="col-12">
+            <h2 class="super effect-static-text">Adcropper in numbers</h2>
+            <p class="text-max-800 smallPmedia">
+              Here are some of our headline numbers we are proud of:
+            </p>
+          </div>
+        </div>
+        <div
+          data-aos-id="counter"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="row justify-content-center text-center items"
+        >
+          <div class="col-12 col-md-6 col-lg-3 item">
+            <div
+              data-percent="100"
+              data-value="60"
+              data-symbol=""
+              class="radial"
+            >
+              <span></span>
+            </div>
+            <h4>Brands</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 item">
+            <div
+              data-percent="100"
+              data-value="1500"
+              data-symbol="M"
+              class="radial"
+            >
+              <span></span>
+            </div>
+            <h4>User Actions</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 item">
+            <div
+              data-percent="100"
+              data-value="7800"
+              data-symbol=""
+              class="radial"
+            >
+              <span></span>
+            </div>
+            <h4>Banner Sets</h4>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 item">
+            <div
+              data-percent="100"
+              data-value="850"
+              data-symbol=""
+              class="radial"
+            >
+              <span></span>
+            </div>
+            <h4>Landing Page</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section id="services" class="section-2 odd offers featured custom">
+      <div class="container">
+        <div class="row text-center intro">
+          <div class="col-12">
+            <h2>Our Services</h2>
+            <p class="mx-sm-5 px-sm-5">
+              Advertisers are facing more and more difficulties to stand out
+              against their competitors and to engage with their audience within
+              an increasingly oversaturated environment. Engage your audience
+              with our premium services:
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center items">
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card featured">
+              <div>
+                <i class="icon icon-globe"></i>
+                <h4>Adserver</h4>
+                <p class="mb-0 text-left">
+                  Be in charge of your ads with peace of mind.
+                </p>
+                <ul>
+                  <li>Customised according to your need</li>
+                  <li>Integrated with most tech vendors</li>
+                  <li>Whitelisted across all SSPs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card">
+              <div>
+                <i class="icon icon-layers"></i>
+                <h4>Dynamic Creatives</h4>
+                <p class="mb-0 text-left">
+                  Make every single impression count with Dynamic Creatives.
+                  Show only relevant high-performing creative assets to the
+                  right audience at the right time.
+                </p>
+                <ul>
+                  <li>A/B Testing</li>
+                  <li>Retargeting</li>
+                  <li>API development and integration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card">
+              <div>
+                <i class="icon icon-camrecorder"></i>
+                <h4>Video Banners</h4>
+                <p class="mb-0 text-left">
+                  No video assets, no problem. Take advantage of our eye
+                  catching video animations to level up your rich media ads.
+                </p>
+                <ul>
+                  <li>Increase your CTR</li>
+                  <li>Static assets to animation</li>
+                  <li>Best hosting rates guaranteed per CPM</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card">
+              <div>
+                <img
+                  class="uniqueIcon icon"
+                  src="assets/svgIco/unique4.svg"
+                  alt=""
+                />
+                <h4>Unique API Development</h4>
+                <p class="mb-0 text-left">
+                  Why not use your existing APIs to step up your digital
+                  advertising with real time and relevant data?
+                </p>
+                <ul>
+                  <li>Making APIs advertisable</li>
+                  <li>Dynamic Jackpot</li>
+                  <li>Odd Comparison</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card">
+              <div>
+                <i class="icon icon-control-forward"></i>
+                <h4>Playable Ads</h4>
+                <p class="mb-0 text-left">
+                  Ads can be fun. Let your audience engage with your brand with
+                  playable ads.
+                </p>
+                <ul>
+                  <li>Advanced data-driven reporting</li>
+                  <li>Mobile & browser friendly</li>
+                  <li>Targeted & attractive ads</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card featured">
+              <div>
+                <i class="icon icon-rocket"></i>
+                <h4>Free To Play Sites</h4>
+                <p class="mb-0 text-left">
+                  Increase your online presence, boost user acquisition and
+                  retention capability with our tailor made micro sites
+                </p>
+                <ul>
+                  <li>Engaging Sports or Casino games using real time data</li>
+                  <li>Personalised custom design for your brand</li>
+                  <li>
+                    Possibility to advertise your FTP site through Paid Search
+                    and Paid social in every markets
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacts -->
+    <section id="contact" class="section-4 hero p-0">
+      <div
+        class="swiper-container no-slider animation slider-h-auto swiper-container-initialized swiper-container-horizontal"
+      >
+        <div
+          class="swiper-wrapper"
+          style="transform: translate3d(0px, 0px, 0px)"
+        >
+          <!-- Item 1 -->
+          <div
+            class="swiper-slide slide-center swiper-slide-active"
+            style="width: 1200px"
+          >
+            <!-- 
+                                            Suggestion: Add a video to your assets folder and configure it here.
+                
+                                            <video type="video/mp4" class="full-image" data-mask="70" src="assets/videos/yourvideo.mp4" autoplay muted loop></video> 
+                                        -->
+
+            <div class="slide-content row">
+              <div class="container smaller">
+                <div class="row text-center intro">
+                  <div class="col-12">
+                    <h2>Get in touch</h2>
+                    <p class="text-max-800">
+                      Whenever you need us we are here for you and your digital
+                      advertising needs. Drop us a line to start something
+                      beautiful.
+                    </p>
+                    <img id="ctrlImg" class="" />
+                  </div>
+                </div>
+                <form
+                  action="https://adcropper.com/mail"
+                  id="leverage-simple-form"
+                  class="leverage-simple-form"
+                >
+                  <input type="hidden" name="section" value="leverage_form" />
+
+                  <div class="row form-group-margin">
+                    <div class="col-12 col-md-6">
+                      <div class="m-0 p-2 input-group">
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control field-name"
+                          placeholder="Name"
+                        />
+                      </div>
+                      <div class="m-0 p-2 input-group">
+                        <input
+                          type="email"
+                          name="email"
+                          class="form-control field-email"
+                          placeholder="Email"
+                        />
+                      </div>
+                      <div class="m-0 p-2 input-group">
+                        <input
+                          type="text"
+                          name="phone"
+                          class="form-control field-phone"
+                          placeholder="Phone"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="m-0 p-2 input-group">
+                        <textarea
+                          name="message"
+                          class="form-control field-message"
+                          placeholder="Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                 
+                    <div class="col-12 col-12 m-0 pl-md-2">
+                      <span class="form-alert" style="display: none"></span>
+                    </div>
+                  </div>
+                  <div class="w-100">
+                    <div class="input-group ml-4 p-2">
+                      <button class="btn primary-button" type="submit">
+                        SEND
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <span
+          class="swiper-notification"
+          aria-live="assertive"
+          aria-atomic="true"
+        ></span>
+      </div>
+    </section>
+
+    <!-- About [video] -->
+    <section id="about" class="section-2 highlights image-left">
+      <div class="container">
+        <h2 class="w-100 text-center mt-0 pb-0 text-light mb-5">About Us</h2>
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <div class="mapp">
+              <iframe
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=Tomtom%20Mah.%20Istiklal%20Cad%20No%20163/20%20Beyoglu%20Istanbul+(Adcropper)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                width="100%"
+                height="100%"
+                frameborder="0"
+              ></iframe>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-7 pl-md-5 align-self-center text-center text-md-left"
+          >
+            <div class="row items">
+              <div class="col-12 p-0">
+                <div class="row item">
+                  <div class="col-12 col-md-12 align-self-center">
+                    <p class="footerP">
+                      Adcropper provides digital advertising, design, and
+                      software services to leading companies operating in
+                      various countries around the world.
+                    </p>
+                    <p class="footerP">
+                      Since 2016, we have been crafting customised solutions to
+                      cater for our clients needs in the digital advertising
+                      space through the technologies we have developed on our ad
+                      servers.
+                      <br /><br />
+                      Get in touch to learn more about our services or request a
+                      demo.
+                    </p>
+                  </div>
+                </div>
+                <a href="mailto:adops@adcropper.com">
+                  <div class="row item">
+                    <div class="col-12 col-md-2 align-self-center">
+                      <i class="icon icon-envelope"></i>
+                    </div>
+                    <div class="col-12 col-md-9 align-self-center">
+                      <h4 class="footerP">adops@adcropper.com</h4>
+                    </div>
+                  </div></a
+                >
+                <a
+                  href="https://www.google.com/maps/dir//Tomtom,+M%C4%B1s%C4%B1r+Apartman%C4%B1,+34433+Beyo%C4%9Flu%2F%C4%B0stanbul/@41.0325234,28.9744407,17z/data=!4m17!1m7!3m6!1s0x14cab7600f9e249b:0x5e94e2077827be3a!2zVG9tdG9tLCBNxLFzxLFyIEFwYXJ0bWFuxLEsIDM0NDMzIEJleW_En2x1L8Swc3RhbmJ1bA!3b1!8m2!3d41.0325234!4d28.9766294!4m8!1m0!1m5!1m1!1s0x14cab7600f9e249b:0x5e94e2077827be3a!2m2!1d28.9766294!2d41.0325234!3e2"
+                >
+                  <div class="row item">
+                    <div class="col-12 col-md-2 align-self-center">
+                      <i class="icon icon-compass"></i>
+                    </div>
+                    <div class="col-12 col-md-9 align-self-center">
+                      <h4 class="footerP">
+                        Tomtom mahallesi, İstiklal Caddesi, Mısır Apartmanı 5.
+                        Kat 163/20 Beyoğlu, İstanbul, Türkiye, 34433
+                      </h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="career" class="section-1 offers">
+      <div class="container">
+        <div class="row intro">
+          <div
+            class="col-12 col-md-9 align-self-center text-center text-md-left"
+          >
+            <h2 class="featured">Career</h2>
+            <p>
+              Ready to join the team? Send your resumes to adops@adcropper.com
+              to apply. Here are the open positions we currently have:
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center items">
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card featured bg-light">
+              <img
+                class="careerIcon"
+                src="assets/svgIco/frontend4.svg"
+                alt=""
+              />
+              <h4>Frontend Developer</h4>
+              <!--  
+                                    <p class="mb-1">javascript html 5 knowlage. Work withh team</p>
+                                -->
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card bg-light">
+              <img
+                class="careerIcon"
+                src="assets/svgIco/artdirector4.svg"
+                alt=""
+              />
+              <h4>Art Director</h4>
+              <!--  
+                                    <p class="mb-1">We will respond to your email within 8 hours on business days.</p>
+                               -->
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 item">
+            <div class="card featured bg-light">
+              <img class="careerIcon" src="assets/svgIco/motion4.svg" alt="" />
+              <h4>Motion Graphic Designer</h4>
+              <!--  
+                                    <p class="mb-1">Come visit us from Monday to Friday from 11 am to 4 pm.</p>
+                              -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="odd">
+      <!-- Footer [links] -->
+      <section id="footer" class="footer ac-foother">
+        <div class="container">
+          <div class="row items footer-widget">
+            <div class="col-6">
+              <div class="brand">
+                <img class="w-25 mt-2" src="assets/images/adcropper-dark.svg" />
+              </div>
+            </div>
+            <div class="col-6 text-right">
+              <ul class="navbar-nav social share-list mt-0 ml-auto">
+                <li class="nav-item">
+                  <a
+                    href="https://tr.linkedin.com/company/adcropper"
+                    class="nav-link"
+                    ><i class="icon-social-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- Modal [responsive menu] -->
+    <div
+      id="menu"
+      class="p-0 modal fade"
+      role="dialog"
+      aria-labelledby="menu"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-slideout" role="document">
+        <div class="modal-content full">
+          <div class="modal-header" data-dismiss="modal">
+            Menu <i class="icon-close"></i>
+          </div>
+          <div class="menu modal-body">
+            <div class="row w-100">
+              <div class="items p-0 col-12 text-center">
+                <!-- Append [navbar] -->
+              </div>
+              <div class="contacts p-0 col-12 text-center">
+                <!-- Append [navbar] -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==============================================
+        Google reCAPTCHA // Put your site key here
+        =============================================== -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LedumwaAAAAANY7tAV64dEt7WJGucEg2nuOZ6HB"></script>
+
+    <!-- Scroll [to top] -->
+    <div id="scroll-to-top" class="scroll-to-top">
+      <a href="#header" class="smooth-anchor">
+        <i class="icon-arrow-up"></i>
+      </a>
+    </div>
+
+    <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/jquery.easing.min.js"></script>
+    <script src="assets/js/vendor/jquery.inview.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/ponyfill.min.js"></script>
+    <script src="assets/js/vendor/slider.min.js"></script>
+    <script src="assets/js/vendor/animation.min.js"></script>
+    <script src="assets/js/vendor/progress-radial.min.js"></script>
+    <script src="assets/js/vendor/bricklayer.min.js"></script>
+    <script src="assets/js/vendor/gallery.min.js"></script>
+    <script src="assets/js/vendor/shuffle.min.js"></script>
+    <script src="assets/js/vendor/cookie-notice.min.js"></script>
+    <script src="assets/js/vendor/particles.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- #endregion Global ========================= -->
+  </body>
+</html>
